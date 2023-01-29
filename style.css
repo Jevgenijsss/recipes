@@ -1,0 +1,78 @@
+body {
+    background-color: #12274F;
+    color: white;
+    min-height: 720px;
+    min-width: 1280px;
+    font-family: 'Poppins', Verdana, sans-serif;
+    margin: 0;
+}
+
+.title {
+   position: relative;
+   top: 4em;
+   font-size: 71px;
+   font-weight: 700;
+   line-height: 84px;
+   letter-spacing: 0em;
+   text-align: left;
+   margin: 0;
+   width: 359px;
+   height: 162px;
+}
+
+.navigation {
+    position: relative;
+    top: 5em;
+    left: 5%;
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.links {
+    position: relative;
+    left: 10em;
+}
+
+a {
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+a:visited {
+    color: white;
+}
+
+.btn {
+    
+    background-color: #00FF75;
+    width: 250px;
+    height: 96px;
+    box-shadow: 0px 10px 0px #12274F;
+    border-radius: 50px;
+    font-size: 32px;
+    font-weight: 900;
+    color: white;
+    position: relative;
+    top: 10em;
+    border-style: none;
+}
+
+.title, .btn-container {
+    padding-left: 15%;
+}
+
+.vector {
+    position: absolute;
+    z-index: 0;
+    left: 5em;
+    top: 20em;
+}
+
+.fastfood {
+    position: relative;
+    left: 30em;
+    top: 14em;
+
+}
