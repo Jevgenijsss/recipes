@@ -24,7 +24,7 @@ body {
     position: relative;
     top: 5em;
     left: 5%;
-    width: 50%;
+    width: 65%;
     display: flex;
     justify-content: space-evenly;
 }
@@ -39,6 +39,7 @@ a {
     font-size: 24px;
     font-weight: 700;
     margin-left: 1em;
+    color: white;
 }
 
 a:visited {
@@ -101,4 +102,43 @@ a:visited {
 .footer .icon {
     margin-right: 5%;
     margin-bottom: 3%;
+}
+
+.las-img {
+    width: 500px;
+    height: auto;
+    float: right;
+    padding-top: 1em;
+    padding-left: 3em;
+    padding-right: 3em;
+}
+
+.title.las {
+    top: 1.5em;
+}
+
+.main-container {
+    position: relative;
+    top: 4em;
+    padding-left: 5em;
+    text-align: justify;
+}
+
+.title.chill {
+    width: 50%;
+    position: relative;
+    top: 1.5em;
+    left: -1em;
+}
+
+.directions {
+    padding-right: 5em;
+}
+
+.main-container.mac {
+    top: 10em;
+}
+
+.footer.macfoot {
+    top: 13em;
 }
